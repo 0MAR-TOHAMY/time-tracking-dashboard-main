@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time tracking dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="item report">
+      <div class="user">
+        <img src="./images/image-jeremy.png" alt="user">
+        <div class="text">
+          <span>Report for</span>
+          <h2>Jeremy Robson</h2>
+        </div>
+      </div>
+      <div class="report-period">
+        <h3 onclick="dataByPeriod('daily');" id="daily">Daily</h3>
+        <h3 onclick="dataByPeriod('weekly');" id="weekly" class="current">Weekly</h3>
+        <h3 onclick="dataByPeriod('monthly');" id="monthly">Monthly</h3>
+      </div>
+    </div>
+    <div class="item work">
+      <img src="./images/icon-work.svg" alt="work">
+      <div class="info">
+        <div class="title">
+          <h4>work</h4>
+          <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="hours">
+          <h2>32hrs</h2>
+          <p>Last Week - 36hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="item play">
+      <img src="./images/icon-play.svg" alt="play">
+      <div class="info">
+        <div class="title">
+          <h4>play</h4>
+          <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="hours">
+          <h2>10hrs</h2>
+          <p>Last Week - 8hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="item study">
+      <img src="./images/icon-study.svg" alt="study">
+      <div class="info">
+        <div class="title">
+          <h4>study</h4>
+          <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="hours">
+          <h2>4hrs</h2>
+          <p>Last Week - 7hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="item exercise">
+      <img src="./images/icon-exercise.svg" alt="exercise">
+      <div class="info">
+        <div class="title">
+          <h4>exercise</h4>
+          <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="hours">
+          <h2>4hrs</h2>
+          <p>Last Week - 5hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="item social">
+      <img src="./images/icon-social.svg" alt="social">
+      <div class="info">
+        <div class="title">
+          <h4>social</h4>
+          <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="hours">
+          <h2>5hrs</h2>
+          <p>Last Week - 10hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="item self-care">
+      <img src="./images/icon-self-care.svg" alt="selfcare">
+      <div class="info">
+        <div class="title">
+          <h4>selfcare</h4>
+          <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="hours">
+          <h2>2hrs</h2>
+          <p>Last Week - 2hrs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
